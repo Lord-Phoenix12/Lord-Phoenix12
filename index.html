@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bored v1</title>
+    <script src="https://kit.fontawesome.com/5350387462.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <div class="main">
+        <div class="real-box">
+            <div class="logo"><a href="index.html"><i class="icl fab fa-phoenix-framework"></i></a></div>
+
+            <h2 class="lp">Lord Phoenix</h2>
+            <h5>Web Developer - Student</h5>
+            <p>Hey there! Im Lord Phoenix</p>
+
+            <div class="box">
+                <div class="item"><a href=""><i class="ic fab fa-github github-a"></i></a></div>
+                <div class="item"><a href=""><i class="ic fab fa-telegram telegram-a"></i></a></div>
+                <div class="item"><a href=""><i class="ic fab fa-instagram instagram-a"></i></a></div>  
+                <div class="item"><a href=""><i class="ic fab fa-youtube youtube-a"></i></a></div>
+                <div class="item"><a href=""><i class="ic fab fa-discord discord-a"></i></a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        const deviceType = () => {
+        const ua = navigator.userAgent;
+        if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+            return "tablet";
+        }
+        else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+            return "mobile";
+        }
+        return "desktop";
+    };
+    var s = deviceType();
+    console.log(s);
+    </script>
+</body>
+</html>
