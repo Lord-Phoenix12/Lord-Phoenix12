@@ -26,7 +26,7 @@
 
 .instagram-a {
     text-transform: uppercase;
-    background-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,255,0,1) 10%, rgba(61,255,0,1) 20%, rgba(0,255,102,1) 30%, rgba(0,254,255,1) 40%, rgba(21,0,255,1) 50%, rgba(237,0,200,1) 60%, rgba(255,0,91,1) 70%, rgba(246,223,5,1) 80%, rgba(18,225,2,1) 90%, rgba(0,255,248,1) 100%);
+    background-image: linear-gradient(90deg, rgba(0,255,222,1) 0%, rgba(255,0,215,1) 90%);
 
     -webkit-background-clip: text;
     background-clip: text;
