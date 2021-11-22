@@ -17,7 +17,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
 .box {
@@ -32,10 +31,6 @@ body {
     font-size: 2rem;
 }
 
-.logo {
-    color: rgb(255, 255, 255);
-}
-
 .ic {
     color: white;
 }
@@ -48,8 +43,8 @@ body {
     padding: 1rem;
     text-align: center;
     background-color: #ffffff10;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 }
 
 
@@ -70,4 +65,26 @@ body {
     to{
         background-position: 100%;
     }
+}
+
+
+
+.github-a {
+    color: #171515 ;
+}
+
+.telegram-a {
+    color: #0088CC;
+}
+
+.instagram-a {
+    color: white;
+}
+
+.youtube-a {
+    color: #FF0000;
+}
+
+.discord-a {
+    color: #7289d9;
 }
